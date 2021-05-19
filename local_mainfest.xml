@@ -2,7 +2,7 @@
 <manifest>
 
         <remote  name="anoos"
-                fetch="https://github.com/cArN4gEisDeD" />
+                fetch="https://github.com/Fraschze97" />
 
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="anoos" revision="eleven-ims" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="anoos" revision="eleven-ims" clone-depth="1" />
