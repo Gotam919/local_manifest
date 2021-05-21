@@ -4,7 +4,7 @@
         <remote  name="anoos"
                 fetch="https://github.com/cArN4gEisDeD" />
 
-        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="anoos" revision="nad11" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="anoos" revision="use-it" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="anoos" revision="eleven" clone-depth="1" />
 	<project path="external/selinux" name
 </manifest>
