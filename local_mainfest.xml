@@ -6,7 +6,6 @@
 
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="Yasundram" revision="desc" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="Yasundram" revision="eleven" clone-depth="1" />
-	<remove-project name="android_device_nad_sepolicy" />
 	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="Yasundram" revision="eleven" />
         <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Yasundram" revision="lineage-18.1" clone-depth="1" />
 		
