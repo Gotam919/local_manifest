@@ -3,6 +3,8 @@
 
 	<remote name="Yasundram"
 		fetch="https://github.com/Yasundram" />
+        <remote name="patch"
+                fetch="https://github.com/PixelExperience" />
 
         <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="Yasundram" revision="octavi" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="Yasundram" revision="eleven" clone-depth="1" />
