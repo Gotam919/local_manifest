@@ -3,11 +3,12 @@
 
 	<remote name="Yasundram"
 		fetch="https://github.com/Yasundram" />
-	 <remote name="sarthakroy2002"
-                fetch="https://github.com/sarthakroy2002" />
-	
-	<project path="device/realme/RMX2020" name="device_realme_RMX2020" remote="Yasundram" revision="octavi" clone-depth="1" />
-        <project path="vendor/realme/RMX2020" name="vendor_realme_RMX2020" remote="sarthakroy2002" revision="11" clone-depth="1" />
-        <project path="kernel/realme/rmx2020" name="kernel_realme_rmx2020-1" remote="sarthakroy2002" revision="lineage-18.1" clone-depth="1" />
-
+	 <remote name="Realme-G70-Series"
+                fetch="https://github.com/Realme-G70-Series" />
+      
+        <project path="device/realme/RMX2020" name="device_realme_RMX2020" remote="Yasundram" revision="octavi" clone-depth="1" />
+        <project path="vendor/realme/RMX2020" name="vendor_realme_RMX2020" remote="Realme-G70-Series" revision="11-custom-rmui1" clone-depth="1" />
+        <project path="kernel/realme/rmx2020" name="kernel_realme_rmx2020" remote="Realme-G70-Series" revision="lineage-18.1" clone-depth="1" />
+        <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Realme-G70-Series" revision="lineage-18.1" clone-depth="1" />
+       
 </manifest>
