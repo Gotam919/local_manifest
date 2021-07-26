@@ -11,7 +11,7 @@
 	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Yasundram" revision="lineage-18.1" clone-depth="1" />
 	
         
-	<remove-project name="android_external_selinux" />
+	<remove-project name="platform/external/selinux" />
         <project path="external/selinux" name="external_selinux" remote="patch" revision="eleven" clone-depth="1" />
       
 
