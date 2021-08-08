@@ -6,7 +6,7 @@
         <remote name="patch"
                 fetch="https://github.com/PixelExperience" />
 
-        <project path="device/realme/RMX1941" name="device_RMX1941" remote="Yasundram" revision="octavi" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="Yasundram" revision="octavi" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="Yasundram" revision="eleven" clone-depth="1" />
 	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Yasundram" revision="lineage-18.1" clone-depth="1" />
 	<project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="Yasundram" revision="master" clone-depth="1" />
