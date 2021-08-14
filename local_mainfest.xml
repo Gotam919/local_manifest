@@ -13,7 +13,7 @@
 	<remove-project name="frameworks_opt_net_ims" />
         <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="patch" revision="eleven" clone-depth="1" />
 
-        <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="patch" revision="eleven" clone-depth="1" />
+
        	
 
 	
