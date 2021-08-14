@@ -4,7 +4,7 @@
 	<remote name="Yasundram"
 		fetch="https://github.com/Yasundram" />
 
-        <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="Yasundram" revision="cipher" clone-depth="1" />
+        <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="Yasundram" revision="" clone-depth="1" />
         <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="Yasundram" revision="11" clone-depth="1" />
 	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Yasundram" revision="lineage-18.1" clone-depth="1" />
 		
