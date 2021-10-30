@@ -5,6 +5,6 @@
                 fetch="https://github.com/Gotam919" />
 
         <project path="device/realme/RMX1941" name="device_RMX1941" remote="main" revision="crdroid" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="main" revision="11" clone-depth="1" />
+        <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="main" revision="eleven" clone-depth="1" />
 
 </manifest>
