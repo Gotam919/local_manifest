@@ -4,7 +4,7 @@
  <remote name="main"
                 fetch="https://github.com/Gotam919" />
 
-        <project path="device/realme/aqua" name="android_device_realme_aqua" remote="main" revision="arrow" clone-depth="1" />
+        <project path="device/realme/aqua" name="android_device_realme_aqua" remote="main" revision="havoc" clone-depth="1" />
         <project path="vendor/realme/aqua" name="android_vendor_realme_aqua" remote="main" revision="eleven" clone-depth="1" />
 
 </manifest>
