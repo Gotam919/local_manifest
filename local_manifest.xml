@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote name="main"
+        <remote name="main"
                 fetch="https://github.com/Gotam919" />
 
-        <project path="device/realme/aqua" name="android_device_realme_aqua" remote="main" revision="fluid" clone-depth="1" />
+        <remote name="patch"
+                fetch="https://github.com/ArrowOS" />
+ 
+        <project path="device/realme/aqua" name="android_device_realme_aqua" remote="main" revision="octavi" clone-depth="1" />
         <project path="vendor/realme/aqua" name="android_vendor_realme_aqua" remote="main" revision="eleven" clone-depth="1" />
+        <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Gotam919" revision="lineage-18.1" clone-depth="1" />
         
+        <remove-project name="platform_external_selinux" />
+        <project path="external/selinux" name="android_external_selinux" remote="patch" revision="arrow-12.0" clone-depth="1" />
 </manifest>
