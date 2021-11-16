@@ -3,6 +3,9 @@
 
         <remote name="main"
                 fetch="https://github.com/Gotam919" />
+        <remote name="patch"
+                fetch="https://github.com/CipherOS" />
+
 
         <project path="device/realme/RMX1941" name="device_RMX1941" remote="main" revision="fluid" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="main" revision="eleven" clone-depth="1" />
