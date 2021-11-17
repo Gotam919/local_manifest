@@ -11,7 +11,7 @@
         <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="main" revision="eleven" clone-depth="1" />
 
         
-        <remove-project name="platform/external/selinux" />
+        <remove-project name="external_selinux" />
         <project path="external/selinux" name="android_external_selinux" remote="patch" revision="eleven" clone-depth="1" />
         
 </manifest>
